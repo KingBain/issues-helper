@@ -33,7 +33,7 @@ jobs:
         with:
           actions: update-issue
           show-thanks: "false"
-          issue-number: "${{ fromJSON(steps.find_drift_report.outputs.issues)[0].number }}""
+          issue-number: "${{ fromJSON(steps.find_drift_report.outputs.issues)[0].number }}"
           update-mode: "append"
           body: |
             update
