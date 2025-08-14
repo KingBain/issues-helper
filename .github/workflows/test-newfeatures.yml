@@ -31,7 +31,7 @@ jobs:
         if: steps.find_drift_report.outputs.issues != '[]'
         uses: actions-cool/issues-helper@a610082f8ac0cf03e357eb8dd0d5e2ba075e017e # v3
         with:
-          actions: "update-issue"
+          actions: update-issue
           show-thanks: "false"
           issue-number: "${{ fromJSON(steps.find_drift_report.outputs.issues)[0].number }}""
           update-mode: "append"
