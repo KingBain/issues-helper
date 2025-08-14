@@ -24,7 +24,7 @@ jobs:
           labels: "alert"
           body-includes: |
             ## Drift Detection Alert
-
+            - [View Action Run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
             Find ifnot create
 
       - name: Update drift issue if present
