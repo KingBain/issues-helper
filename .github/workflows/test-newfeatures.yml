@@ -18,7 +18,7 @@ jobs:
         with:
           actions: find-issues
           issue-state: "open"
-          create-issue-if-not-exist: "true"
+          create-issue-if-not-exist: true
           show-thanks: "false"
           title-includes: "Report"
           labels: "alert"
