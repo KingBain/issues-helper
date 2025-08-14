@@ -22,7 +22,7 @@ jobs:
           show-thanks: "false"
           title-includes: "Report"
           labels: "alert"
-          body: |
+          body-includes: |
             ## Drift Detection Alert
             - [View Action Run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
             Find if not create
