@@ -29,7 +29,7 @@ jobs:
 
       - name: Update drift issue if present
         if: steps.find_drift_report.outputs.issues != '[]'
-        uses: actions-cool/issues-helper@a610082f8ac0cf03e357eb8dd0d5e2ba075e017e # v3
+        uses: actions-cool/issues-helper@v3.6.2
         with:
           actions: update-issue
           show-thanks: "false"
