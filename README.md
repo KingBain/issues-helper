@@ -41,6 +41,11 @@ English | [简体中文](README.zh-CN.md)
 
 ## Who is using?
 
+<img src="https://github.com/KingBain/issues-helper/blob/stats-generator/stats/usage.png?raw=true" alt="Usage Over Time" style="width: 100%;">
+
+
+As the days go by, you can see how the count evolves… here is our github public adoption(Search Results).
+
 Please leave a message at [**here**](https://github.com/actions-cool/issues-helper/issues/6).
 
 <table>
